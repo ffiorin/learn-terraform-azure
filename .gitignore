@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Segredos — NUNCA commitar
+.env
+*.pem
+*.key
+secrets.*
+
+# Terraform (vai importar no projeto 1)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Sistema
+.vscode/
+Thumbs.db
